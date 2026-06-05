@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmseceval"
+version = "0.1.0"
+description = "Automated Security Evaluation of LLM-Generated Code"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Steven Shi", email = "s.shi.2@umail.leidenuniv.nl"},
+]
+
+dependencies = [
+    "pandas>=2.0",
+    "pyarrow>=15.0",
+    "lingua-language-detector>=2.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "click>=8.0",
+    "rich>=13.0",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+codegen = []  # No extras needed for Ollama backend (uses requests, already a core dep)
+sast = [
+    "bandit==1.9.4",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
+all = [
+    "llmseceval[codegen,sast,dev]",
+]
+
+[project.scripts]
+llmseceval = "llmseceval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

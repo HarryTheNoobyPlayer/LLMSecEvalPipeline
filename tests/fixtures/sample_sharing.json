@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "PullRequest",
+    "ChatgptSharing": []
+  },
+  {
+    "Type": "Issue",
+    "ChatgptSharing": [
+      {
+        "URL": "https://chatgpt.com/share/1",
+        "Conversations": [
+          {
+            "Prompt": "Write a Python function that reverses a linked list in-place."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Type": "Commit",
+    "ChatgptSharing": [
+      {
+        "URL": "https://chatgpt.com/share/2",
+        "Conversations": [
+          {
+            "Prompt": "Write a Python function that sorts a list using merge sort."
+          },
+          {
+            "Prompt": "ctx"
+          },
+          {
+            "Prompt": "用Python写一个排序算法"
+          },
+          {
+            "Prompt": "Напишите функцию сортировки на Python"
+          },
+          {
+            "Prompt": "Write a function to compute the Fibonacci sequence recursively."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Type": "CodeFile",
+    "ChatgptSharing": [
+      {
+        "URL": "https://chatgpt.com/share/3",
+        "Conversations": [
+          {
+            "Prompt": "Write a Python function that reverses a linked list in-place."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Type": "Discussion",
+    "ChatgptSharing": [
+      {
+        "URL": "https://chatgpt.com/share/4",
+        "Conversations": [
+          {
+            "Prompt": "   "
+          },
+          {
+            "Prompt": ""
+          },
+          {
+            "Prompt": "\n\t"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Type": "HackerNews",
+    "ChatgptSharing": [
+      {
+        "URL": "https://chatgpt.com/share/5",
+        "Conversations": [
+          {
+            "Prompt": "Implement a binary search tree with insert and search methods."
+          },
+          {
+            "Prompt": "Create a REST API endpoint that handles user authentication."
+          },
+          {
+            "Prompt": "Write a Python class that implements a stack using two queues."
+          },
+          {
+            "Prompt": "Design a function that validates email addresses using regex."
+          }
+        ]
+      }
+    ]
+  }
+]
