@@ -163,7 +163,7 @@ class SASTExecutorConfig(BaseModel):
 class AggregatorConfig(BaseModel):
     """Configuration for the Aggregator stage (stub, not yet implemented)."""
 
-    mitre_top25_year: int = Field(default=2024)
+    mitre_top25_year: int = Field(default=2025)
     export_formats: list[str] = Field(default_factory=lambda: ["json", "csv"])
     include_per_prompt_details: bool = True
 
