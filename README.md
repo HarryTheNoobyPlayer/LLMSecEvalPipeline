@@ -24,7 +24,7 @@ plus concrete backends), so swapping a model or SAST tool means writing one clas
 rather than re-engineering the pipeline.
 
 A detailed design write-up with per-stage flow diagrams lives in
-[walkthrough.md](walkthrough.md). The full requirements are in [prd.md](prd.md).
+[walkthrough.md](walkthrough.md).
 
 ## Requirements
 
